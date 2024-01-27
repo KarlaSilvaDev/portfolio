@@ -213,7 +213,7 @@ body {
 }
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
     .cabecalho {
         padding: 3%;
     }
@@ -244,7 +244,7 @@ body {
     }
 
     .apresentacao__imagem,
-    .sobre-mim__imagem{
+    .sobre-mim__imagem {
         width: 75%;
     }
 
