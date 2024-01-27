@@ -260,26 +260,30 @@ body {
 
     .apresentacao__conteudo,
     .sobre-mim__conteudo {
-        width: auto;
+        width: 100%;
 
     }
 
     .apresentacao__imagem,
     .sobre-mim__imagem {
-        width: 60%;
+        width: 50%;
     }
 
     .curriculo__imagem {
-        width: 100%;
+        width: 50%;
     }
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+
+    .cabecalho__menu {
+        gap: 25px;
+    }
 
     .curriculo,
     .sobre-mim {
-        padding: 2% auto;
+        padding: 10%;
         width: 80%;
     }
 
@@ -298,11 +302,71 @@ body {
 
     .curriculo__tecnologias__icones {
         flex-wrap: wrap;
+        gap: 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    .cabecalho__menu {
+        padding: 5%;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.1rem;
+    }
+
+    .apresentacao,
+    .sobre-mim,
+    .curriculo {
+        gap: 30px;
+    }
+
+    .apresentacao__conteudo__titulo,
+    .sobre-mim__conteudo__titulo,
+    .curriculo__titulo {
+        font-size: 1.4rem;
+    }
+
+
+    .apresentacao__conteudo__texto,
+    .sobre-mim__conteudo__texto,
+    .curriculo__conteudo__texto {
+        font-size: 1.2rem;
+    }
+
+    .apresentacao__conteudo__links__subtitulo,
+    .curriculo__subtitulo {
+        font-size: 1.1rem;
+    }
+
+    .apresentacao__imagem,
+    .sobre-mim__imagem {
+        width: 100%;
+    }
+
+    .apresentacao__conteudo__links__navegacao {
+        font-size: 1.2rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .links__imagem {
+        width: 20px;
+    }
+
+    .curriculo__link {
+        width: 80%;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .curriculo__tecnologias__icones {
         gap: 10px;
     }
 
+
     .rodape {
-        width: 100%;
+        font-size: 1rem;
     }
 
 
