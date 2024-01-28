@@ -132,14 +132,15 @@ body {
     border-radius: 10px;
     outline: 1px solid var(--cor-terciaria);
     outline-offset: 15px;
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
     width: 30%;
 }
 
-.apresentacao__imagem:hover,
-.sobre-mim__imagem:hover,
-.curriculo__imagem:hover {
+.apresentacao__imagem {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.apresentacao__imagem:hover {
     filter: grayscale(0%);
 }
 
@@ -362,9 +363,13 @@ body {
         width: 20px;
     }
 
+    .curriculo__imagem {
+        width: 80%;
+    }
+
     .curriculo__link {
         width: 80%;
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 10px;
     }
 
